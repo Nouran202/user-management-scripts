@@ -19,16 +19,17 @@ bash add_user_admin.sh <username> [password] [ssh_key_file]
 Example:
 bash add_user_admin.sh john mypassword /path/to/ssh_key.pub
 
-2. delete_sudo_user.sh
+### 2. **delete_sudo_user.sh**
 Deletes a user with sudo privileges from the system.
 
-Usage:
+### Usage:
 bash delete_sudo_user.sh <username>
 <username>: The name of the user to delete.
 
 Example:
 bash delete_sudo_user.sh john
-Prerequisites
+
+### Prerequisites
 Must be run as root.
 
 Designed for Linux-based systems (Ubuntu, Debian, RHEL, CentOS, Fedora).
